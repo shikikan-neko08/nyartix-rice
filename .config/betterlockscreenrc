@@ -1,0 +1,19 @@
+# configuration file for betterlockscreen
+
+insidecolor=00000000
+ringcolor=E9E3E5
+keyhlcolor=d23c3dff
+bshlcolor=d23c3dff
+separatorcolor=00000000
+insidevercolor=00000000
+insidewrongcolor=d23c3dff
+ringvercolor=ffffffff
+ringwrongcolor=ffffffff
+verifcolor=ffffffff
+timecolor=E9E3E5
+datecolor=E9E3E5
+loginbox=160f1766
+font="Iosevka Custom"
+locktext='Shikikan Sama....'
+lock_timeout=5
+time_format='%H:%M:%S'

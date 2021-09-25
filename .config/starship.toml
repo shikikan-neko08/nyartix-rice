@@ -1,0 +1,45 @@
+# ~/.config/starship.toml
+
+# Use custom format
+#format = """
+#[┌────](bold black)$time$username$directory$git_branch$git_status$go$python$cmd_duration
+#[└─](bold black)$character"""
+
+format = """
+(bold red)$time$username$directory$git_branch$git_status$go$python$cmd_duration
+(bold red)$character"""
+
+
+
+# Wait 10 milliseconds for starship to check files under the current directory.
+scan_timeout = 10
+
+
+
+# Disable the blank line at the start of the prompt
+add_newline = false
+
+[character]
+success_symbol = "[❯❯❯](bold red) "
+error_symbol =   "[❯❯❯](bold green) "
+
+
+[time]
+disabled = false
+format = '[\[$time\]](bold red) '
+time_format = "%T"
+utc_time_offset = "+7"
+
+[username]
+style_user = "green bold"
+style_root = "red bold"
+format = " [$user at:]($style) "
+disabled = false
+show_always = true
+
+[cmd_duration]
+min_time = 100
+format = "underwent [$duration](bold red)"
+
+[directory]
+style = "green"
