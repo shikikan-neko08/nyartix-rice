@@ -43,6 +43,9 @@
  * nitrogen 
  * Font Awesome
  * [clearine](https://github.com/okitavera/clearine)
+ 
+  Some of this packages might not be available on your distro's repository, please refer to your distro package manager.
+  For Arch-based users, you could use AUR for those packages.
 
 # Installation
 
