@@ -30,6 +30,9 @@
   Initial release
 
 
+# To do
+* add bspwm, herbstluftwm support
+
 # Dependecies
  * [rofi](https://github.com/davatorium/rofi)
  * [kitty](https://github.com/kovidgoyal/kitty)
