@@ -22,6 +22,13 @@
 * Bar       : Polybar
 * Lockscreen: betterlockscreen
 
+# Version History
+
+* A-1.0.1      
+  New feature: "window move" mode and gap resize mode
+* A-1.0      
+  Initial release
+
 
 # Dependecies
  * [rofi](https://github.com/davatorium/rofi)
