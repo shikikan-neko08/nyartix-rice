@@ -32,6 +32,7 @@
 
 # To do
 * add bspwm, herbstluftwm support
+* urxvt & .Xresources support
 
 # Dependecies
  * [rofi](https://github.com/davatorium/rofi)
