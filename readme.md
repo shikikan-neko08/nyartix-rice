@@ -1,5 +1,7 @@
 # Nyartix Rice
 
+## i3-gaps
+
 ![enter image description here](https://github.com/shikikan-neko08/nyartix-rice/blob/main/assets/2021-09-26-044615_1360x768_scrot.png)
 
 ![enter image description here](https://github.com/shikikan-neko08/nyartix-rice/blob/main/assets/2021-09-26-045448_1360x768_scrot.png) 
@@ -8,7 +10,8 @@
 
 ![enter image description here](https://github.com/shikikan-neko08/nyartix-rice/blob/main/assets/2021-09-26-045031_1360x768_scrot.png)
 
-
+## BSPWM
+![enter image description here](https://github.com/shikikan-neko08/nyartix-rice/blob/main/assets/2021-09-27-090517_1360x768_scrot.png)
 
 
 # Details
