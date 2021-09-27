@@ -84,6 +84,7 @@ To apply The GTK Theme and icons, you can use LXappearance
 
 # Issues
 > I opened Thunar but it appears to be bleck theme        
+
 Delete the gtk-dark.css on the theme folder, on gtk3.0
 
 # License
