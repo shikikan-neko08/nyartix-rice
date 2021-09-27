@@ -60,6 +60,7 @@
 * Install [Starship Prompt](https://starship.rs/)
 * Install [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 * copy powerlevel10k.zsh-theme to your powerlevel10k folder
+* copy .p10k.zsh to your home directory.
 * install the required fonts by copying .fonts directory to your home directory      
 > **Note : for Source han and ttf-font-awesome, install it from your repository**          
 > **Arch : sudo pacman -S adobe-source-han-sans-jp-fonts ttf-font-awesome**
