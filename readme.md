@@ -84,5 +84,5 @@ To apply The GTK Theme and icons, you can use LXappearance
 
 # License
 
-Under MIT License. See license for details.
+Under MIT License. See ./LICENSE for details.
 
