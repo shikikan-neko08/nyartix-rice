@@ -83,7 +83,7 @@ To apply The GTK Theme and icons, you can use LXappearance
 * Polybar is disabled by default. to enable it run "launchbar" if you are on zsh shell. or uncomment the launch.sh on i3/config
 
 # Issues
-> I opened Thunar but it appears to be bleck theme
+> I opened Thunar but it appears to be bleck theme        
 Delete the gtk-dark.css on the theme folder, on gtk3.0
 
 # License
