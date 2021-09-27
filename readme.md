@@ -41,6 +41,7 @@
  * [rofi](https://github.com/davatorium/rofi)
  * [kitty](https://github.com/kovidgoyal/kitty)
  * [i3-gaps](https://github.com/Airblader/i3)
+ * [bspwm](https://github.com/baskerville/bspwm) (optional)
  * [Polybar](https://github.com/polybar/polybar)
  * [betterlockscreen](https://github.com/pavanjadhaw/betterlockscreen)   
  * nitrogen 
