@@ -73,7 +73,7 @@
 * manually install the plug by opening vimrc using vim then instal the plugin using :PlugInstall   
 * Set the wallpaper using nitrogen  
 * Set Lockscreen Wallpaper using this command      
-> betterlockscreen -u /path/to/wallpaper_kaga.png
+> betterlockscreen -u /path/to/wallpaper.png
 
 To apply The GTK Theme and icons, you can use LXappearance    
 
