@@ -26,7 +26,8 @@
 * Lockscreen: betterlockscreen
 
 # Version History
-
+* A-1.0.2       
+  Added BSPWM Support
 * A-1.0.1      
   New feature: "window move" mode and gap resize mode
 * A-1.0      
