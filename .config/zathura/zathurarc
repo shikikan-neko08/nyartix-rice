@@ -1,0 +1,19 @@
+set selection-clipboard clipboard
+
+set recolor true
+set default-bg              "#FFFFFF"
+set recolor-lightcolor      "#FDFCFD"
+set recolor-darkcolor       "#181F33"
+set default-fg              "#181F33"
+set inputbar-fg             "#181F33"
+set inputbar-bg             "#FDFCFD"
+set statusbar-fg            "#181F33"
+set statusbar-bg            "#B2C3D2"
+
+set statusbar-home-tilde true
+set window-title-basename true
+
+set guioptions cshv
+
+set font Cantarell\ 12
+#set font Iosevka Medium Extended\ 12
