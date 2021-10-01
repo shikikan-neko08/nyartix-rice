@@ -36,6 +36,7 @@
 
 # To do
 * add ~~bspwm~~, herbstluftwm support
+* bspwm specific polybar
 * urxvt & .Xresources support
 
 # Dependecies
