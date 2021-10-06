@@ -90,7 +90,7 @@ Super + 1-9 go to workspace x
 Super + Shift + 1-9 move window to workspace x     
 Super + Shift + E Powermenu (requires clearine)     
 Super + Shift + R restart wm     
-Super + x lockscreen     
+Super + Escape lockscreen     
 
 ## bspwm
 
@@ -101,6 +101,7 @@ Super + 1-9 go to workspace x
 Super + Shift + 1-9 move window to workspace x     
 Super + Alt + Q Powermenu (requires clearine)      
 Super + Alt + R restart wm     
+Super + X lockscreen     
 
 # Issues
 > I opened Thunar but it appears to be black theme        
