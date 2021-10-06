@@ -110,6 +110,7 @@ Super + Alt + H, J, K ,L Increase window size
 Super + Alt + Shift + H, J, K ,L Decrease window size     
 Super + Alt + Q Powermenu (requires clearine)      
 Super + Alt + R restart wm     
+Super + Escape restart keybinding     
 Super + X lockscreen     
 
 # Issues
