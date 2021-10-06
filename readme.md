@@ -121,7 +121,7 @@ Delete the gtk-dark.css on the theme folder, on gtk3.0
 # Notes
 * If you are installing this on systemd , don't forget to change the loginctl
  command to systemctl on clearine.conf and polybar config
-* Polybar is disabled by default. to enable it run "launchbar" if you are on zsh shell. or uncomment the launch.sh on i3/config
+* Polybar is disabled by default. to enable it run "launchbar" if you are on zsh shell. or uncomment the launch.sh on i3/config. this only affected for i3 users. user that using bspm as their default didn't need to configure this as the polybar executed on startup
 
 
 # License
