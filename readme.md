@@ -106,7 +106,7 @@ Super + w close
 Super + space rofi     
 Super + 1-9 go to workspace x     
 Super + Shift + 1-9 move window to workspace x     
-Super + Alt + H, J, K ,L Increase window size
+Super + Alt + H, J, K ,L Increase window size       
 Super + Alt + Shift + H, J, K ,L Decrease window size     
 Super + Alt + Q Powermenu (requires clearine)      
 Super + Alt + R restart wm     
