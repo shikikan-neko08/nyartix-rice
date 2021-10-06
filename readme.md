@@ -82,12 +82,25 @@
 To apply The GTK Theme and icons, you can use LXappearance    
 
 # Basic Keybinding
-i3     
+## i3     
 Super + Return Terminal     
 Super + Shift + Q close     
 Super + D rofi     
 Super + 1-9 go to workspace x     
 Super + Shift + 1-9 move window to workspace x     
+Super + Shift + E Powermenu (requires clearine)
+Super + Shift + R restart wm     
+Super + x lockscreen     
+
+## bspwm
+
+Super + Return Terminal     
+Super + w close     
+Super + space rofi     
+Super + 1-9 go to workspace x     
+Super + Shift + 1-9 move window to workspace x     
+Super + Alt + Q Powermenu (requires clearine)
+Super + Shift + R restart wm     
 
 # Issues
 > I opened Thunar but it appears to be black theme        
