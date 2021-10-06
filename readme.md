@@ -88,6 +88,9 @@ Super + Shift + Q close
 Super + D rofi     
 Super + 1-9 go to workspace x     
 Super + Shift + 1-9 move window to workspace x     
+Super + R resize mode     
+Super + Shift + G Toogle gap resizing mode     
+Super + Shift + M Toogle move mode    
 Super + Shift + E Powermenu (requires clearine)     
 Super + Shift + R restart wm     
 Super + Escape lockscreen     
