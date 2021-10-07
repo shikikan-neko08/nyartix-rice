@@ -83,7 +83,7 @@ To apply The GTK Theme and icons, you can use LXappearance
 
 # Basic Keybinding
 
-Both super key is windows key      
+super key is the windows key      
 read more [here](https://en.wikipedia.org/wiki/Super_key_(keyboard_button))
 
 ## i3     
