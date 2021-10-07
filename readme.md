@@ -97,7 +97,7 @@ Super + Shift + G Toggle gap resizing mode
 Super + Shift + M Toggle move mode 
 Super + Left Click move window with drag     
 Super + Right Click resize window with drag    
-Super + W Toggle tabbing layout 
+Super + W Toggle tabbing layout       
 Super + E Toggle tiling layout     
 Super + S Toggle stacking layout     
 Super + Shift + Space Toggle Floating mode     
