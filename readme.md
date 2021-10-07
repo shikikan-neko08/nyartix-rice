@@ -94,7 +94,7 @@ Super + 0-9 go to workspace x
 Super + Shift + 0-9 move window to workspace x     
 Super + R resize mode (use arrows to resize or using wasd)     
 Super + Shift + G Toggle gap resizing mode     
-Super + Shift + M Toggle move mode 
+Super + Shift + M Toggle move mode        
 Super + Left Click move window with drag     
 Super + Right Click resize window with drag    
 Super + W Toggle tabbing layout       
