@@ -19,10 +19,6 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
-bspc config top_padding 0
-bspc config left_padding 0
-bspc config right_padding 0
-bspc config bottom_padding 45
 
 # Autostart
 $HOME/.screenlayout/screen.sh &
