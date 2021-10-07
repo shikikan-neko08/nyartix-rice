@@ -90,8 +90,8 @@ read more [here](https://en.wikipedia.org/wiki/Super_key_(keyboard_button))
 Super + Return Terminal     
 Super + Shift + Q close     
 Super + D rofi     
-Super + 1-9 go to workspace x     
-Super + Shift + 1-9 move window to workspace x     
+Super + 0-9 go to workspace x     
+Super + Shift + 0-9 move window to workspace x     
 Super + R resize mode (use arrows to resize or using wasd)     
 Super + Shift + G Toggle gap resizing mode     
 Super + Shift + M Toggle move mode 
@@ -111,8 +111,8 @@ Super + Escape lockscreen
 Super + Return Terminal     
 Super + w close     
 Super + space rofi     
-Super + 1-9 go to workspace x     
-Super + Shift + 1-9 move window to workspace x     
+Super + 0-9 go to workspace x     
+Super + Shift + 0-9 move window to workspace x     
 Super + Alt + H, J, K ,L Increase window size       
 Super + Alt + Shift + H, J, K ,L Decrease window size    
 Super + S Toggle Floating mode     
@@ -122,6 +122,10 @@ Super + Alt + Q Powermenu (requires clearine)
 Super + Alt + R restart wm     
 Super + Escape restart keybinding     
 Super + X lockscreen     
+
+
+>note
+>Workspace 0 is assigned as workspace 10
 
 # Issues
 > I opened Thunar but it appears to be black theme        
