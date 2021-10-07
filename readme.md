@@ -92,9 +92,16 @@ Super + Shift + Q close
 Super + D rofi     
 Super + 1-9 go to workspace x     
 Super + Shift + 1-9 move window to workspace x     
-Super + R resize mode     
-Super + Shift + G Toogle gap resizing mode     
-Super + Shift + M Toogle move mode    
+Super + R resize mode (use arrows to resize or using wasd)     
+Super + Shift + G Toggle gap resizing mode     
+Super + Shift + M Toggle move mode 
+Super + Left Click move window with drag     
+Super + Right Click resize window with drag    
+Super + W Toggle tabbing layout 
+Super + E Toggle tiling layout     
+Super + S Toggle stacking layout     
+Super + Shift + Space Toggle Floating mode     
+Super + F Toggle Fullscreen     
 Super + Shift + E Powermenu (requires clearine)     
 Super + Shift + R restart wm     
 Super + Escape lockscreen     
@@ -107,7 +114,10 @@ Super + space rofi
 Super + 1-9 go to workspace x     
 Super + Shift + 1-9 move window to workspace x     
 Super + Alt + H, J, K ,L Increase window size       
-Super + Alt + Shift + H, J, K ,L Decrease window size     
+Super + Alt + Shift + H, J, K ,L Decrease window size    
+Super + S Toggle Floating mode     
+Super + T Toggle Tiling Mode     
+Super + F Toggle Fullscreen     
 Super + Alt + Q Powermenu (requires clearine)      
 Super + Alt + R restart wm     
 Super + Escape restart keybinding     
