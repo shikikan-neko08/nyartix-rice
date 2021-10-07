@@ -124,7 +124,7 @@ Super + Escape restart keybinding
 Super + X lockscreen     
 
 
->note
+>note     
 >Workspace 0 is assigned as workspace 10
 
 # Issues
