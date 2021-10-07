@@ -123,3 +123,6 @@ super + {Left,Down,Up,Right}
 	
 super + x
     betterlockscreen -l dimblur
+    
+Print
+	scrot
