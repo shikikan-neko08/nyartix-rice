@@ -14,6 +14,8 @@
 ![enter image description here](https://github.com/shikikan-neko08/nyartix-rice/blob/main/assets/2021-09-27-090517_1360x768_scrot.png)
 
 
+[500 Upvotes, ありがとうございます](https://www.reddit.com/r/unixporn/comments/q21jz9/i3gaps_nya/)
+
 # Details
 * Font Used : Iosevka Custom
 * GTK Theme : Modified version of Lumiere From [addy-dclxvi](https://github.com/addy-dclxvi/gtk-theme-collections) . I'll call it frostneko
