@@ -28,11 +28,11 @@
 * Lockscreen: betterlockscreen
 
 # Version History
-* A-1.0.3
-New polybar for BSPWM (floating)       
-New Neofetch Configuration     
-Added screenshot keybindings on sxhkdrc      
-Arrow .p10k.zsh theme    
+* A-1.0.3      
+  New polybar for BSPWM (floating)       
+  New Neofetch Configuration     
+  Added screenshot keybindings on sxhkdrc      
+  Arrow .p10k.zsh theme    
 * A-1.0.2       
   Added BSPWM Support
 * A-1.0.1      
