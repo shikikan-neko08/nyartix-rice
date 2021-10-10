@@ -284,6 +284,23 @@ format-underline = #0a6cf5
 
 label = %date% %time%
 
+[module/datealternate]
+type = internal/date
+interval = 5
+
+date = %a, %b %e |  %H:%M
+;date-alt = " %Y-%m-%d"
+
+;time = %H:%M
+;time-alt = %H:%M:%S
+
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #0a6cf5
+
+label = %date% %time%
+
+
 [module/pulseaudio]
 type = internal/pulseaudio
 
