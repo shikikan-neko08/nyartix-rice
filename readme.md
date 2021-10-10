@@ -98,6 +98,7 @@ read more [here](https://en.wikipedia.org/wiki/Super_key_(keyboard_button))
 ## i3     
 Super + Return Terminal     
 Super + Shift + Q close     
+Alt + F4 Close      
 Super + D rofi     
 Super + 0-9 go to workspace x     
 Super + Shift + 0-9 move window to workspace x     
@@ -113,7 +114,16 @@ Super + Shift + Space Toggle Floating mode
 Super + F Toggle Fullscreen     
 Super + Shift + E Powermenu (requires clearine)     
 Super + Shift + R restart wm     
-Super + Escape lockscreen     
+Super + Escape lockscreen    
+
+Super + F1 Enable Polybar     
+Super + F2 Thunar
+Super + F3 chromium     
+Super + F4 cmus      
+Super + F5 vim     
+Alt + F1 gotop      
+Alt + F2 connmann-gtk     
+ 
 
 ## bspwm
 
