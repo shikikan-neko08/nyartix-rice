@@ -23,6 +23,7 @@ background-alt = #F2D2D8E0
 ;foreground = ${xrdb:color7:#222}
 foreground = #181F33
 foreground-alt = #9DA3AE
+foreground-alt-2 = #454951
 primary = #A7B6C7
 secondary = #e60053
 alert = #C7BBC2
@@ -36,7 +37,7 @@ height = 35
 radius = 0.0
 fixed-center = true
 
-bottom = true
+bottom = false
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -48,7 +49,7 @@ border-size = 0
 border-color = #00000000
 
 padding-left = 1
-padding-right = 2
+padding-right = 1
 
 module-margin-left = 1
 module-margin-right = 1
@@ -67,9 +68,10 @@ font-7 = "SourceHanSansJP-Normal:pixelsize=10;1"
 #modules-center = mpd
 #modules-right = filesystem xbacklight pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
 
-modules-left = rofi thunar-icon browser i3 bspwm
-modules-center =  
-modules-right = pulseaudio eth memory filesystem cpu date
+modules-left = rofi thunar-icon browser i3 bspwm 
+modules-center = 
+modules-right = pulseaudio eth memory filesystem cpu date powermenu
+
 
 tray-position = none
 tray-padding = 2
@@ -91,6 +93,8 @@ cursor-scroll = ns-resize
 
 [module/xwindow]
 type = internal/xwindow
+format-prefix = "  "
+format-prefix-foreground = ${colors.custom}
 label = %title:0:30:...%
 
 [module/xkeyboard]
@@ -273,10 +277,10 @@ type = internal/date
 interval = 5
 
 date =
-date-alt = " %Y-%m-%d"
+date-alt = " %a, %b %e %Y"
 
 time = %H:%M
-time-alt = %H:%M:%S
+time-alt = 
 
 format-prefix =  
 format-prefix-foreground = ${colors.foreground-alt}
@@ -415,10 +419,10 @@ expand-right = true
 
 format-spacing = 1
 
-label-open = 
-label-open-foreground = ${colors.secondary}
-label-close =  cancel
-label-close-foreground = ${colors.secondary}
+label-open = 
+label-open-foreground = ${colors.foreground-alt}
+label-close =  cancel
+label-close-foreground = ${colors.foreground-alt}
 label-separator = |
 label-separator-foreground = ${colors.foreground-alt}
 
@@ -430,10 +434,10 @@ menu-0-1-exec = menu-open-2
 menu-1-0 = cancel
 menu-1-0-exec = menu-open-0
 menu-1-1 = reboot
-menu-1-1-exec = sudo reboot
+menu-1-1-exec = loginctl reboot
 
 menu-2-0 = power off
-menu-2-0-exec = sudo poweroff
+menu-2-0-exec = loginctl poweroff
 menu-2-1 = cancel
 menu-2-1-exec = menu-open-0
 
@@ -475,6 +479,43 @@ screenchange-reload = true
 ;compositing-foreground = source
 ;compositing-border = over
 ;pseudo-transparency = false
+
+[module/kernel]
+type = custom/script
+exec = uname -r
+tail = false
+interval = 1024
+
+[module/clock1]
+type = internal/date
+time = %H:%M
+format = <label>
+label = %time%
+label-margin = 2
+format-background = #B2C3D2
+format-foreground = #282c34
+#format-overline = #FFFFFF
+format-underline = #282c34
+
+[module/day1]
+type = internal/date
+time = %a %e
+format = <label>
+label = %time%
+label-margin = 2
+#format-background = #F2DFDFDF
+#format-overline = #282c34
+#format-underline = #282c34
+[module/date-alt]
+type = internal/date
+time = %a, %b %e | %H:%M
+format = <label>
+label = %time%
+label-margin = 2
+format-prefix = "  "
+format-prefix-foreground = ${colors.foreground-alt-2}
+format-background = ${colors.primary}
+
 
 [global/wm]
 margin-top = 5

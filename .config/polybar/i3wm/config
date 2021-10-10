@@ -23,6 +23,7 @@ background-alt = #F2D2D8E0
 ;foreground = ${xrdb:color7:#222}
 foreground = #181F33
 foreground-alt = #9DA3AE
+foreground-alt-2 = #454951
 primary = #A7B6C7
 secondary = #e60053
 alert = #C7BBC2
@@ -36,7 +37,7 @@ height = 35
 radius = 0.0
 fixed-center = true
 
-bottom = true
+bottom = false
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -48,7 +49,7 @@ border-size = 0
 border-color = #00000000
 
 padding-left = 1
-padding-right = 2
+padding-right = 1
 
 module-margin-left = 1
 module-margin-right = 1
@@ -70,6 +71,7 @@ font-7 = "SourceHanSansJP-Normal:pixelsize=10;1"
 modules-left = rofi thunar-icon browser i3 bspwm 
 modules-center = 
 modules-right = pulseaudio eth memory filesystem cpu date powermenu
+
 
 tray-position = none
 tray-padding = 2
@@ -275,16 +277,33 @@ type = internal/date
 interval = 5
 
 date =
-date-alt = " %Y-%m-%d"
+date-alt = " %a, %b %e %Y"
 
 time = %H:%M
-time-alt = %H:%M:%S
+time-alt = 
 
 format-prefix =  
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #0a6cf5
 
 label = %date% %time%
+
+[module/datealternate]
+type = internal/date
+interval = 5
+
+date = %a, %b %e |  %H:%M
+;date-alt = " %Y-%m-%d"
+
+;time = %H:%M
+;time-alt = %H:%M:%S
+
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #0a6cf5
+
+label = %date% %time%
+
 
 [module/pulseaudio]
 type = internal/pulseaudio
@@ -466,6 +485,37 @@ type = custom/script
 exec = uname -r
 tail = false
 interval = 1024
+
+[module/clock1]
+type = internal/date
+time = %H:%M
+format = <label>
+label = %time%
+label-margin = 2
+format-background = #B2C3D2
+format-foreground = #282c34
+#format-overline = #FFFFFF
+format-underline = #282c34
+
+[module/day1]
+type = internal/date
+time = %a %e
+format = <label>
+label = %time%
+label-margin = 2
+#format-background = #F2DFDFDF
+#format-overline = #282c34
+#format-underline = #282c34
+[module/date-alt]
+type = internal/date
+time = %a, %b %e | %H:%M
+format = <label>
+label = %time%
+label-margin = 2
+format-prefix = "  "
+format-prefix-foreground = ${colors.foreground-alt-2}
+format-background = ${colors.primary}
+
 
 [global/wm]
 margin-top = 5
