@@ -10,6 +10,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod4
+set $mod1 Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -51,7 +52,7 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 #Screenshot
-bindsym Print exec --no-startup-id scrot
+bindsym Print exec scrot -e 'mv $f ~/Pictures/Screenshots/' && notify-send "Screenshot" "Screenshot Captured"
 
 
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -63,6 +64,7 @@ bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
+bindsym $mod1+F4 kill
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id rofi -show run -font "Iosevka Custom 14"
@@ -121,6 +123,18 @@ bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
+
+#Apps
+bindsym $mod+F1 exec $HOME/.config/polybar/launch.sh
+bindsym $mod+F2 exec thunar
+bindsym $mod+F3 exec chromium
+bindsym $mod+F4 exec kitty cmus
+bindsym $mod+F5 exec kitty vim
+bindsym $mod+F12 exec killall -q polybar
+bindsym $mod1+F1 exec kitty gotop
+bindsym $mod1+F2 exec connman-gtk 
+# bindsym $mod1+F2 exec netowrk-manager or smth if you are using networkmanager
+
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
@@ -196,8 +210,10 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # You can also use any non-zero value if you'd like to have a border
-for_window [class=".*"] border pixel 0
-#for_window [class=".*"] border pixel 4
+#for_window [class=".*"] border pixel 0
+for_window [class=".*"] border pixel 4
+#for_window [class=".*"] border normal 0
+
 #indicator disable
 # binding_mode_indicator no
 
@@ -212,10 +228,10 @@ set $urgent-bg-color     #C7BBC2
 
 # window colors
 #                       border              background         text                 indicator
-client.focused          $bg-color           $bg-color          $text-color          #00ff00
-client.unfocused        $inactive-bg-color $inactive-bg-color $inactive-text-color #00ff00
-client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-color #00ff00
-client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #00ff00
+client.focused          $bg-color           $bg-color          $text-color          $bg-color
+client.unfocused        $inactive-bg-color $inactive-bg-color $inactive-text-color $inactive-bg-color
+client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-color $inactive-bg-color
+client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          $urgent-bg-color
 
 # Gaps resize Mode
 
