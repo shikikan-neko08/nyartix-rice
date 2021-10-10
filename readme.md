@@ -121,6 +121,7 @@ Super + F2 Thunar
 Super + F3 chromium     
 Super + F4 cmus      
 Super + F5 vim     
+Super + F12 Disable Polybar     
 Alt + F1 gotop      
 Alt + F2 connmann-gtk     
  
