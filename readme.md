@@ -117,7 +117,7 @@ Super + Shift + R restart wm
 Super + Escape lockscreen    
 
 Super + F1 Enable Polybar     
-Super + F2 Thunar
+Super + F2 Thunar    
 Super + F3 chromium     
 Super + F4 cmus      
 Super + F5 vim     
