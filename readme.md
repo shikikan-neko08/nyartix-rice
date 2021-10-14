@@ -62,7 +62,8 @@
   Some of this packages might not be available on your distro's repository, please refer to your distro package manager.
   For Arch-based users, you may use AUR for those packages.
   
-  > tip : rofi works best on version 1.6.1. if you are using version 1.7.0, it only showing the outline of the selected apps.
+  > tip : rofi works best on version 1.6.1. if you are using version 1.7.0, it only showing the outline of the selected apps.      
+  > yes, this is the bug but since i don't know how to configure rofi properly, i can't really fix that rn.
 
 # Installation
 
