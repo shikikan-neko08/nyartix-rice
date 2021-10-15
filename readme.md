@@ -147,6 +147,14 @@ Super + Alt + Q Powermenu (requires clearine)
 Super + Alt + R restart wm     
 Super + Escape restart keybinding     
 Super + X lockscreen     
+Super + F1 Enable Polybar     
+Super + F2 Thunar    
+Super + F3 chromium     
+Super + F4 cmus      
+Super + F5 vim     
+Super + F12 Disable Polybar     
+Alt + F1 gotop      
+Alt + F2 connmann-gtk     
 
 
 >note     
