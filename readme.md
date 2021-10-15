@@ -56,7 +56,7 @@
  * [rofi](https://github.com/davatorium/rofi)
  * [kitty](https://github.com/kovidgoyal/kitty)
  * [i3-gaps](https://github.com/Airblader/i3)
- * [bspwm](https://github.com/baskerville/bspwm) (optional)
+ * [bspwm](https://github.com/baskerville/bspwm) (optional*)
  * [Polybar](https://github.com/polybar/polybar)
  * [betterlockscreen](https://github.com/pavanjadhaw/betterlockscreen)   
  * nitrogen 
@@ -67,7 +67,9 @@
   For Arch-based users, you may use AUR for those packages.
   
   > tip : rofi works best on version 1.6.1. if you are using version 1.7.0, it only showing the outline of the selected apps.      
-  > yes, this is the bug but since i don't know how to configure rofi properly, i can't really fix that rn.
+  > yes, this is the bug but since i don't know how to configure rofi properly, i can't really fix that rn.     
+
+  > You don't need to install both i3 and bspwm. you are only required to install one of them
 
 # Installation
 
@@ -147,6 +149,7 @@ Super + Alt + Q Powermenu (requires clearine)
 Super + Alt + R restart wm     
 Super + Escape restart keybinding     
 Super + X lockscreen     
+
 Super + F1 Enable Polybar     
 Super + F2 Thunar    
 Super + F3 chromium     
