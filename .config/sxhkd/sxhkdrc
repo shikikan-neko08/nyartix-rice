@@ -126,3 +126,33 @@ super + x
     
 Print
 	scrot
+	
+	
+	
+super + F1
+	$HOME/.config/polybar/launch.sh
+	
+super + F2
+	thunar
+	
+super + F3
+	chromium
+
+super + F4
+	kitty cmus
+	
+super + F5
+	kitty vim
+	
+super + F12
+	killall -q polybar
+	
+
+alt + F1
+	kitty gotop
+	
+alt + F2
+	connman-gtk 
+	
+alt + F4
+	bspc node -k
