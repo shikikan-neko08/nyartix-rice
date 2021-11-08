@@ -183,5 +183,5 @@ Delete the gtk-dark.css on the theme folder, on gtk3.0
 # License
 
 ~~Under MIT License. See ./LICENSE for details.~~        
-Starting on November, 8th 2021. nyartix-rice is Licensed under GPL 3.0. Please Update your license accordingly.
+Starting on November, 8th 2021. nyartix-rice is Re-Licensed under GPL 3.0. Please Update your license accordingly.
 
