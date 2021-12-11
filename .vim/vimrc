@@ -8,3 +8,26 @@ call plug#end()
 # let g:airline_theme='selenized_bw'
 
 let g:airline_theme='zenburn'
+
+let background = "#fdfcfd"
+let foreground = "#181F33"
+let cursor     = "#181F33"
+
+" Colors
+let color0  = "#fdfcfd"
+let color1  = "#9DA3AE"
+let color2  = "#A7B6C7"
+let color3  = "#C7BBC2"
+let color4  = "#B2C3D2"
+let color5  = "#A5D9EA"
+let color6  = "#D2D8E0"
+let color7  = "#181F33"
+let color8  = "#939091"
+let color9  = "#9DA3AE"
+let color10 = "#A7B6C7"
+let color11 = "#C7BBC2"
+let color12 = "#B2C3D2"
+let color13 = "#A5D9EA"
+let color14 = "#D2D8E0"
+let color15 = "#181F33"
+
