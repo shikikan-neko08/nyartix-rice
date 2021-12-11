@@ -71,7 +71,7 @@ font-7 = "SourceHanSansJP-Normal:pixelsize=10;1"
 #modules-right = filesystem xbacklight pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
 
 modules-left = rofi thunar-icon browser ewmh i3 bspwm 
-modules-center = xwindow
+modules-center = 
 modules-right = pulseaudio eth memory filesystem cpu date powermenu
 
 
