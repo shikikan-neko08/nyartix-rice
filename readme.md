@@ -28,7 +28,7 @@
 * GTK Theme : Modified version of Lumiere From [addy-dclxvi](https://github.com/addy-dclxvi/gtk-theme-collections) . I'll call it frostneko
 * Icons     : Custom Version of papirus (nya)
 * OS        : Artix Linux
-* WM        : i3-gaps, bspwm
+* WM        : i3-gaps, bspwm,herbstluftwm
 * Terminal  : Kitty
 * Shell     : zsh
 * Bar       : Polybar
