@@ -24,14 +24,14 @@ font pango:Iosevka Custom 11
 # they are included here as an example. Modify as you see fit.
 
 exec --no-startup-id /home/shikikan/.screenlayout/screen.sh
-exec --no-startup-id picom -f
+exec --no-startup-id picom 
 exec --no-startup-id nitrogen --restore
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 #fcitx
-exec –no-startup-id fcitx
-
+exec –-no-startup-id fcitx
+exec --no-startup-id /usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
 # Polybar
 # By default, polybar is disabled on this configuration. to enable it you have to configure it manually
 # run "launchbar" to enable polybar and "unlaunchbar" to disable.
@@ -52,7 +52,7 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 #Screenshot
-bindsym Print exec scrot -e 'mv $f ~/Pictures/Screenshots/' && notify-send "Screenshot" "Screenshot Captured"
+bindsym $mod+Print exec scrot -e 'mv $f ~/Pictures/Screenshots/' && notify-send "Screenshot" "Screenshot Captured"
 
 
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -67,7 +67,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod1+F4 kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id rofi -show run -font "Iosevka Custom 14"
+bindsym $mod+d exec --no-startup-id rofi -show drun -font "Iosevka Custom 14"
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -129,7 +129,6 @@ bindsym $mod+F1 exec $HOME/.config/polybar/launch.sh
 bindsym $mod+F2 exec thunar
 bindsym $mod+F3 exec chromium
 bindsym $mod+F4 exec kitty cmus
-#bindsym $mod+F4 exec spotify  #uncomment if you wanna using spotify
 bindsym $mod+F5 exec kitty vim
 bindsym $mod+F12 exec killall -q polybar
 bindsym $mod1+F1 exec kitty gotop
@@ -181,6 +180,7 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 # bindsym $mod+Shift+e exec rofi -show power-menu -modi "power-menu: rofi-power-menu --choices=shutdown/reboot/hibernate"
 bindsym $mod+Shift+e exec clearine
+
 bindsym $mod+Escape exec betterlockscreen -l dimblur
 
 # resize window (you can also use the mouse for that)
@@ -211,8 +211,8 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # You can also use any non-zero value if you'd like to have a border
-for_window [class=".*"] border pixel 0
-#for_window [class=".*"] border pixel 4
+#for_window [class=".*"] border pixel 0
+for_window [class=".*"] border pixel 4
 #for_window [class=".*"] border normal 0
 
 #indicator disable

@@ -140,6 +140,10 @@ super + F3
 
 super + F4
 	kitty cmus
+
+#uncomment if you wanna using spotify	
+#super + F4
+#	spotify
 	
 super + F5
 	kitty vim
