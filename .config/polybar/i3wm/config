@@ -58,9 +58,9 @@ font-0 = Iosevka Custom:pixelsize=9;1
 font-1 = Iosevka Custom:fontformat=truetype:size=9
 font-2 = siji:pixelsize=10;1
 font-3 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-4 = "Font Awesome 6 Free:style=Regular:pixelsize=10;1"
-font-5 = "Font Awesome 6 Free:style=Solid:pixelsize=10;1"
-font-6 = "Font Awesome 6 Free:pixelsize=10;1"
+font-4 = "Font Awesome 7 Free:style=Regular:pixelsize=10;1"
+font-5 = "Font Awesome 7 Free:style=Solid:pixelsize=10;1"
+font-6 = "Font Awesome 7 Free:pixelsize=10;1"
 font-7 = "SourceHanSansJP-Normal:pixelsize=10;1"
 
 
