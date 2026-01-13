@@ -62,7 +62,7 @@
  * [betterlockscreen](https://github.com/pavanjadhaw/betterlockscreen)   
  * nitrogen 
  * Font Awesome
- * [clearine](https://github.com/okitavera/clearine)
+ * [clearine](https://github.com/salientos/clearine)
  
   Some of this packages might not be available on your distro's repository, please refer to your distro package manager.
   For Arch-based users, you may use AUR for those packages.
